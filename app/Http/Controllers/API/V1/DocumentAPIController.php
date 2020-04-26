@@ -88,7 +88,7 @@ class DocumentAPIController extends Controller
     /**
      * Update the specified resource to published.
      *
-     * Опубликовать указанныый ресурс.
+     * Опубликовать указанный ресурс.
      *
      * @param string $document
      *
