@@ -7,7 +7,7 @@ namespace App\Repository;
 use App\Contracts\DocumentContract;
 use App\Enums\DocumentStatus;
 use App\Models\Document;
-use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 
 /**

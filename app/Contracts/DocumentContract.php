@@ -4,7 +4,8 @@
 namespace App\Contracts;
 
 use App\Models\Document;
-use Illuminate\Pagination\LengthAwarePaginator;
+
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 
 /**
