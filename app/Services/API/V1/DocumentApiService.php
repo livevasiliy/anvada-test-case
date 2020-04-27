@@ -65,9 +65,9 @@ class DocumentApiService
         $document = $this->documentRepository->createDocument($request->all());
 
         /**
-         * If the document was not found.
+         * If the document was not create.
          *
-         * Если документ не был найден.
+         * Если документ не был создан.
          */
         if (!$document)
         {
@@ -168,6 +168,11 @@ class DocumentApiService
     {
         $document = $this->documentRepository->findDocument($uuid);
 
+        /**
+         * If the document was not found.
+         *
+         * Если документ не был найден.
+         */
         if (!$document)
         {
             return response()->json([], Response::HTTP_NOT_FOUND);
